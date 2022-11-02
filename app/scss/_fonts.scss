@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Montserrat-Regular'),
+        url('../fonts/Montserrat-Regular.woff2') format('font-woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('font-woff');
+    font-display: swap;
+}
+   
+@font-face {
+    font-family: 'ZCOOLXiaoWei-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('ZCOOL-XiaoWei-Regular'),
+        url('../fonts/ZCOOLXiaoWei-Regular.woff2') format('font-woff2'),
+        url('../fonts/ZCOOLXiaoWei-Regular.woff') format('font-woff');
+    font-display: swap;
+}
+   
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    font-weight: 600;
+    font-style: normal;
+    src: local('OpenSans-Semibold'),
+        url('../fonts/OpenSans-SemiBold.woff2') format('font-woff2'),
+        url('../fonts/OpenSans-SemiBold.woff') format('font-woff');
+    font-display: swap;
+}  
+ 
+@font-face {
+    font-family: 'OpenSans-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('OpenSans-Regular'),
+        url('../fonts/OpenSans-Regular.woff2') format('font-woff2'),
+        url('../fonts/OpenSans-Regular.woff') format('font-woff');
+    font-display: swap;
+} 
+ 

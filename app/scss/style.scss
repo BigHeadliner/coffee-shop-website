@@ -1,0 +1,185 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';  
+@import 'libs';  
+@import 'global';
+
+.header {
+    &__top { 
+        position: relative; 
+        border: 1px solid transparent;   
+        padding: 53px 0; 
+        margin-bottom: 127px;
+        .logo{  
+            width: 75px;
+            // position: absolute;
+            // left: 0;
+            // right: 0; 
+            // top: 43px;
+            // margin: 0 auto;  
+            position: absolute;
+            right: 474px;
+            top: 43px;
+         } 
+
+        .menu__list {
+            display: flex;  
+            justify-content: center;
+             
+         .menu__item + .menu__item {
+             margin-left: 45px;
+           }   
+            
+         .menu__item--bigger-distance{ 
+           margin-right: 265px;
+         } 
+
+         .menu__link{ 
+            font-size: 17px; 
+            @extend  %montserrat-400; 
+            color: $main-text-color;
+          }   
+        }
+    } 
+      
+     
+    &__main{ 
+        margin-bottom: 235px;
+    }  
+     
+    &__main-wrapper{ 
+        position: relative
+    } 
+     
+    &__main-img{ 
+        position: absolute;
+        top: -77px;
+        right: -23px;
+    }
+
+    &__main-title{ 
+        @extend %zxool-xiaoWei-400;   
+        font-size: 45px; 
+        line-height: 70px; 
+        max-width: 647px; 
+        margin-bottom: 38px; 
+        color: $main-title-color;
+     } 
+      
+     &__main-text{ 
+        font-size: 18px; 
+        line-height: 30px; 
+        max-width: 500px; 
+        margin-bottom: 50px;
+     } 
+      
+     &__main-button-second, 
+     &__main-button-first{ 
+        padding: 10px 23px; 
+        border: 1px solid #D48A5C;  
+        display: inline-block; 
+        transition: all .3s;  
+        cursor: pointer;
+        &:hover{ 
+            color:#FFF; 
+            background: #232020; 
+            border: 1px solid #232020;  
+        }
+     } 
+      
+     &__main-button-first{ 
+        padding: 10px 14px; 
+        margin-right: 24px;
+     }  
+      
+     &__items{ 
+        display: flex; 
+        justify-content: space-between; 
+        border: 1px solid pink; 
+        margin-bottom: 81px;
+     } 
+
+      
+     &__item-basis{  
+       width: 100%; 
+       max-width: 354px; 
+       height: 247px; 
+       background: #D48A5C; 
+       position:relative
+     }  
+      
+     &__first-item, 
+     &__second-item,  
+     &__third-item{   
+        width: 100%; 
+        max-width: 350px; 
+        height: 256px;  
+        position: absolute; 
+        bottom: 14px; 
+        left: 17px; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center; 
+     }   
+      
+     &__first-item{ 
+        background-image: url('../images/header/header-items/first-item-bg.jpg');   
+     } 
+
+     &__second-item{ 
+        background-image: url('../images/header/header-items/second-item-bg.jpg');   
+     } 
+      
+     &__third-item{ 
+        background-image: url('../images/header/header-items/third-item-bg.jpg');   
+     } 
+      
+     &__item-inner{  
+        position: relative;  
+        width: 100%; 
+        max-width: 350px; 
+        height: 256px;  
+     } 
+
+     &__item-content{ 
+        width: 133px;    
+        height: 50px;
+        position: absolute; 
+        top: 15px; 
+        left: 15px;  
+        border: 1px solid transparent;  
+        position: relative;
+     }  
+      
+     &__item-suptitle, 
+     &__item-title{ 
+        @extend %zxool-xiaoWei-400; 
+        font-size: 14px; 
+        color: $white;  
+     } 
+      
+     &__item-title{   
+         color: $main-title-color; 
+         font-size: 17px; 
+         position: absolute;
+         top: 19px;
+         left: -1px;
+     }
+      
+     &__item-text{ 
+        position: absolute;  
+        left: 17px; 
+        bottom: 30px;
+        font-size: 15px;
+        line-height: 17px;
+        color: $white;  
+        @extend  %open-sans-400;
+        max-width: 195px;
+     }
+
+}
+
+
+@import 'media'; 
+ 
+ 
