@@ -177,6 +177,31 @@
         max-width: 195px;
      }
 
+}  
+
+.coffee-for-you{ 
+  text-align: center;  
+  background-image: url('../images/coffee-for-you/coffee-for-you-bg.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;
+   &__title{ 
+   @extend %zxool-xiaoWei-400; 
+   font-size: 55px; 
+   color: $main-title-color; 
+   margin: 265px 0 37px;
+   }  
+
+   &__subtitle{ 
+      max-width: 671px; 
+      margin:0 auto 37px;
+   } 
+    
+   &__btn{ 
+      padding: 12px 20px;  
+      margin-bottom: 251px; 
+      color: $main-text-color;
+   }
 }
 
 

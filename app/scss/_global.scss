@@ -16,12 +16,25 @@
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400; 
 } 
-
- 
+  
 .container{  
-    max-width: 1170px; 
-    margin: 0 auto; 
-    padding: 0 15px;  
-    border: 1px solid green; 
-   // border: 1px solid transparent;
+  max-width: 1170px; 
+  margin: 0 auto; 
+  padding: 0 15px;  
+  border: 1px solid green; 
+  border: 1px solid transparent;
+}  
+
+
+.main-btn-animation{ 
+  border: 1px solid #D48A5C;  
+  display: inline-block; 
+  transition: all .3s;  
+  cursor: pointer;
+  &:hover{ 
+      color:#FFF; 
+      background: #232020; 
+      border: 1px solid #232020;  
+  }
 } 
+ 
