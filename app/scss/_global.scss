@@ -22,7 +22,7 @@
   margin: 0 auto; 
   padding: 0 15px;  
   border: 1px solid green; 
-  border: 1px solid transparent;
+ // border: 1px solid transparent;
 }  
 
 
@@ -30,7 +30,8 @@
   border: 1px solid #D48A5C;  
   display: inline-block; 
   transition: all .3s;  
-  cursor: pointer;
+  cursor: pointer; 
+  color: $main-text-color;
   &:hover{ 
       color:#FFF; 
       background: #232020; 
