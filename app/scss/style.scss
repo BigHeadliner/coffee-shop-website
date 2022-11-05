@@ -301,6 +301,60 @@
       margin: 70% auto;
    }
 
+} 
+ 
+.best-product{  
+
+   &__title{ 
+      margin: 90px 0 47px;
+   }    
+    
+   &__cards{  
+      width: 100%;  
+      max-width: 1130px;
+      border: 1px solid transparent; 
+      display: flex; 
+      justify-content: space-between; 
+      margin: 0 auto 99px;
+   } 
+
+   &__card{ 
+      padding: 23px; 
+      background-color: $white; 
+      max-width: 350px;
+   } 
+    
+   &__card-img{  
+      margin-bottom: 31px;
+   }  
+    
+   &__card-wrapper{ 
+      display: flex; 
+      align-items: center; 
+      margin-bottom: 17px;
+   } 
+    
+  &__card-title{ 
+      font-size: 24px;  
+      @extend %zxool-xiaoWei-400; 
+      color: $main-title-color; 
+      margin-bottom: 14px;
+   } 
+    
+  &__card-price{ 
+    @extend %open-sans-600; 
+    margin-bottom: 7px;
+  } 
+   
+ &__card-span{ 
+   color:#EAB665; 
+ }
+     
+ &__card-btn{ 
+   padding: 10px 25px; 
+   margin-bottom: 54px;
+ }
+ 
 }
 
 @import 'media'; 
