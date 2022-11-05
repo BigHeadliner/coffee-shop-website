@@ -95,7 +95,7 @@
      &__items{ 
         display: flex; 
         justify-content: space-between; 
-        border: 1px solid pink; 
+        border: 1px solid transparent; 
         margin-bottom: 81px;
      } 
 
@@ -186,9 +186,6 @@
   background-size: cover; 
   background-position: center;
    &__title{ 
-   @extend %zxool-xiaoWei-400; 
-   font-size: 55px; 
-   color: $main-title-color; 
    margin: 265px 0 37px;
    }  
 
@@ -208,9 +205,6 @@
    text-align: center;  
    &__title{ 
       margin: 140px 0 77px; 
-      color: $main-title-color; 
-      font-size: 55px; 
-      @extend %zxool-xiaoWei-400;
    } 
     
    &__items{ 
@@ -256,6 +250,55 @@
    &__item-btn{ 
      padding: 10px 17px;  
      margin: 85px auto 70px;
+   }
+
+} 
+ 
+.buy-machine{ 
+   background: #FFF;  
+   &__inner{ 
+      display: flex; 
+      margin: 37px 0 7px;
+   }   
+    
+   &__title{ 
+      max-width: 650px; 
+      margin: 133px 0 34px;
+   } 
+    
+   &__text{ 
+      max-width: 675px; 
+      margin-bottom: 7px;
+   } 
+    
+   &__btn{ 
+     margin: 27px 0 170px; 
+     padding: 9px 14px;
+   } 
+
+   &__img-wrapper{ 
+      // width: 700px; 
+      // height: 600px; 
+      // background-image: url('../images/buy-machine/buy-machine-img.png'); 
+      // background-repeat: no-repeat; 
+      // background-size: cover; 
+      // background-position: center; 
+       position: relative; 
+       border: 1px solid transparent;
+   } 
+
+   &__link{ 
+      width: 70px; 
+      height: 70px; 
+      border-radius: 50%; 
+      background: #232020;  
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 70% auto;
    }
 
 }

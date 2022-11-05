@@ -22,7 +22,7 @@
   margin: 0 auto; 
   padding: 0 15px;  
   border: 1px solid green; 
- // border: 1px solid transparent;
+  border: 1px solid transparent;
 }  
 
 
@@ -39,3 +39,10 @@
   }
 } 
  
+ 
+.main-title{ 
+  @extend %zxool-xiaoWei-400; 
+  font-size: 55px; 
+  color: $main-title-color;  
+  line-height: 70px;
+}
