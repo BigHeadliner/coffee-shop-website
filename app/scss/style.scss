@@ -355,6 +355,93 @@
    margin-bottom: 54px;
  }
  
+} 
+ 
+.review {
+   text-align: center;
+
+   &__title {
+      margin: 40px 0 31px;
+   }
+
+   &__slider-wrapper {
+      border: 1px solid transparent;
+      margin-bottom: 54px;
+   }
+
+   &__slider {
+      border: 1px solid transparent;
+
+      .slick-arrow {
+         border: none;
+         background-color: transparent;
+         cursor: pointer;
+         position: absolute;
+         top: 50%;
+         transform: translateY(-50%);
+         z-index: 5;
+      }
+
+      .slick-prev {
+         left: -20px;
+      }
+
+      .slick-next {
+         right: -20px;
+      }
+
+      .slick-dots {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         position: absolute;
+         bottom: 5px;
+      }
+
+      .slick-dots li+li {
+         margin-left: 15px;
+      }
+
+      .slick-dots button {
+         width: 15px;
+         height: 15px;
+         background: #FFF;
+         font-size: 0;
+         border-radius: 50%;
+         border: none;
+         cursor: pointer;
+      }
+
+      .slick-dots .slick-active button {
+         background: #d48a5c;
+      }
+
+   }
+
+   &__item {
+      max-width: 763px;
+      border: 1px solid transparent;
+   }
+
+   &__item-text {
+      max-width: 573px;
+      margin: 0 auto 39px;
+   }
+
+   &__item-author-img {
+      margin: 0 auto 9px;
+   }
+
+   &__item-author-name {
+      @extend %zxool-xiaoWei-400;
+      color: $main-title-color;
+      margin-bottom: 45px;
+   }
+
+   &__btn {
+      padding: 10px 25px;
+      margin-bottom: 54px;
+   }
 }
 
 @import 'media'; 
