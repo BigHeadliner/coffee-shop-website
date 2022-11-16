@@ -450,7 +450,7 @@
    
   &__booking{   
    max-width: 790px; 
-   margin: 0 auto;
+   margin: 0 auto 95px;
    background: $white; 
    border: 1px solid transparent;
   } 
@@ -496,12 +496,82 @@
     right: 15px;
 } 
  
-&__input-btn{ 
+&__form-btn{ 
    padding: 10px 25px; 
    font-size: 15px; 
    margin: 21px 0 31px;
 }
 
+} 
+ 
+.blog{ 
+   &__title{ 
+      text-align: center; 
+      margin-bottom: 57px; 
+      font-size: 55px;  
+      @extend  %zxool-xiaoWei-400; 
+      color: $main-title-color;
+   }   
+
+   &__items{ 
+      border: 1px solid transparent; 
+      display: flex; 
+      justify-content: space-between; 
+   }  
+
+   &__item{ 
+      max-width: 350px; 
+      border: 1px solid transparent;
+   } 
+    
+   &__item-text{ 
+      padding: 19px 72px 19px 27px; 
+      background: #1C1A1A; 
+      color: $white;
+   } 
+    
+   &__item-suptitle{ 
+      font-size: 14px;
+   } 
+    
+  &__item-span{ 
+   color:#EAB665;
+  } 
+   
+  &__item-title{ 
+   font-size: 20px; 
+   line-height: 30px; 
+   @extend %zxool-xiaoWei-400; 
+   margin-bottom: 10px;
+  } 
+   
+ &__item-link{ 
+   padding-right: 30px; 
+   border: 1px solid transparent; 
+   font-size: 14px;
+   line-height: 26px;
+   color: #EAB665;  
+   position:relative;
+   &::after{ 
+      content: ""; 
+      width: 19px; 
+      height: 9px; 
+      background-image:url('../images/blog/arrow.svg'); 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      background-position: center; 
+      position: absolute;
+      top: 3px;
+      right: 2px;
+   }
+  } 
+   
+  &__btn{ 
+    padding: 10px 17px;
+    margin: 70px auto 50px; 
+    display:block;  
+    width: 181px;
+  }
 }
 
 @import 'media'; 
