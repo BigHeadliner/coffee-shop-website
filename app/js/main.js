@@ -23,5 +23,5 @@ $(function () {
         starWidth: "23px"
       });
    
-
+ 
 });
