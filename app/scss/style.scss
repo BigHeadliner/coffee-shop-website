@@ -625,14 +625,10 @@
    
   &__form{ 
    width: 100%; 
-   max-width: 350px; 
-  }
-   
- &__input-wrapper{ 
-   width: 100%; 
-   max-width: 350px; 
+   max-width: 350px;  
    position: relative;
- } 
+  }
+
   
  &__form-btn{ 
    position: absolute; 
@@ -659,8 +655,6 @@
 .footer{ 
    background: #FFF; 
    padding-top: 70px;  
-    
-   
  } 
   
  .footer-top{   
@@ -690,8 +684,19 @@
       display: flex; 
       justify-content: center; 
       align-items: center;
-   }
-  } 
+    }  
+    
+  }  
+   
+  .footer-bottom{
+     padding: 17px 0 18px;
+
+     &__text {
+        text-align: center; 
+        color: #979797;
+     }
+  }
+
  
  
 
