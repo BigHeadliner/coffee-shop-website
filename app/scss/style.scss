@@ -572,7 +572,128 @@
     display:block;  
     width: 181px;
   }
-}
+}  
+
+ 
+.contacts{
+  background: #FFF;  
+ 
+  &__go-to-top{ 
+   color: $main-title-color; 
+   border: 1px solid transparent; 
+   display: inline-block;   
+   width: 97px;
+   position: absolute;
+   left: 0;
+   right: 0; 
+   top: -23px;
+   margin: 0 auto;
+  }   
+
+  &__go-to-top-img{ 
+   margin: 0 auto 5px;
+  }
+
+  &__inner{ 
+   border: 1px solid transparent; 
+   display: flex; 
+   justify-content: space-between;  
+   padding-top: 115px;   
+   border-top: 1px solid #EAB665; 
+   position: relative;
+  } 
+
+  &__link{ 
+   position: relative;  
+   padding-left: 34px; 
+   border: 1px solid transparent;
+   color: $main-title-color; 
+   font-size: 14px; 
+   display: flex; 
+   align-items: center;
+  }   
+   
+  &__link-img{ 
+   position: absolute;
+   left: 3px;
+   top: 7px;
+  }
+   
+  &__link-span{ 
+   @extend %open-sans-600;
+  }  
+   
+  &__form{ 
+   width: 100%; 
+   max-width: 350px; 
+  }
+   
+ &__input-wrapper{ 
+   width: 100%; 
+   max-width: 350px; 
+   position: relative;
+ } 
+  
+ &__form-btn{ 
+   position: absolute; 
+   top: 0; 
+   right: 0; 
+   background: transparent; 
+   width: 67px;
+   height: 50px; 
+   display: flex; 
+   justify-content: center; 
+   align-items: center; 
+   border: 1px solid transparent;
+ }  
+  
+ &__input{  
+   width: 100%;
+   padding: 10px 75px 10px 15px; 
+   background: #F2EAE2;
+ }  
+ 
+ 
+} 
+ 
+.footer{ 
+   background: #FFF; 
+   padding-top: 70px;  
+    
+   
+ } 
+  
+ .footer-top{   
+   display: flex; 
+   justify-content: space-between;  
+   align-items: flex-end;
+   margin-bottom: 110px;
+   &__logo-text{ 
+     max-width: 495px;
+   } 
+    
+   &__logo{ 
+      margin-bottom: 9px;
+   }  
+     
+   &__social{   
+      width: 195px; 
+      display: flex; 
+      justify-content: space-between;
+   }
+
+   &__social-item{ 
+      width: 47px; 
+      height: 47px; 
+      border-radius: 4px; 
+      border: 1px solid #6D6D6D; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+   }
+  } 
+ 
+ 
 
 @import 'media'; 
  
