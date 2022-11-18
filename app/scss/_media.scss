@@ -54,7 +54,46 @@
       .header__item-basis{ 
         margin: 35px;
       }
-  }
+  } 
+   
+   
+  @media(max-width:1115px) {
+
+    //-- header  --//     
+     
+    .header__items {
+        margin-bottom: 55px;
+    }
+      
+    .coffee-for-you__title {
+        margin: 197px 0 37px;
+    }  
+     
+    .coffee-for-you__btn {
+        margin-bottom: 97px;
+    }
+
+}
+ 
+ 
+@media(max-width: 999px) {  
+      
+     //-- header --// 
+
+    .header__main {
+        margin-bottom: 105px;
+    }
+
+    //-- coffee-for-you --//       
+     
+    .coffee-for-you__title {
+        margin: 157px 0 37px;
+    }   
+     
+    .coffee-for-you__btn {
+        margin-bottom: 77px;
+    } 
+}
 
 
   @media(max-width: 830px) {
@@ -94,7 +133,16 @@
 
       .header__top .menu__btn {
           display: block;
-      }
+      } 
+       
+      .coffee-for-you__title {
+        margin: 130px 0 37px;
+     }  
+     
+    .coffee-for-you__btn {
+        margin-bottom: 61px;
+    }
+
   }
  
   @media(max-width: 773px) {
@@ -117,6 +165,22 @@
       }
 
   }
+ 
+   
+  @media(max-width: 630px) {
+
+    // -- coffee-for-you --//   
+     
+    .coffee-for-you__title {
+        margin: 107px 0 20px;
+    }   
+     
+    .coffee-for-you__btn {
+        margin-bottom: 55px;
+    }
+     
+ }
+
 
 
 
@@ -130,8 +194,16 @@
 
       .header__main-title {
           line-height: 54px;
-      }
+      } 
+        
+      // -- coffee-for-you__title --//  
 
+      .coffee-for-you__title {
+        margin: 100px 0 17px; 
+        font-size: 49px;
+        line-height: 63px;
+     } 
+      
   }
 
   @media(max-width: 478px) {
@@ -144,7 +216,21 @@
 
       .header__main-text {
           margin-bottom: 40px;
-      }
+      } 
+       
+     // -- coffee-for-you__title --//    
+      
+     .coffee-for-you__title {
+        margin: 87px 0 17px;
+        font-size: 48px;
+        line-height: 54px;
+     } 
+      
+     .coffee-for-you__subtitle {
+        max-width: 671px;
+        margin: 0 auto 18px;
+    }
+
     }
        
       @media(max-width: 447px) {
@@ -176,7 +262,14 @@
         .header__second-item,  
         .header__third-item {
            position: initial;
-       } 
+       }   
+        
+    //-- coffee-for-you --//
+        
+       .coffee-for-you__title {
+        margin: 80px 0 17px; 
+      } 
+
     }
 
       @media(max-width: 370px) {
