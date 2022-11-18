@@ -1,5 +1,14 @@
 $(function () {  
-   
+        
+   $('.menu__btn').on('click', function(){  
+    $('.menu__list').toggleClass('menu__list--active')
+   }) 
+    
+   $('.menu__link').on('click', function(){ 
+      $('.menu__list').removeClass('menu__list--active')
+   })
+ 
+
     $('.review__slider').slick({ 
       prevArrow:'<button type="button" class="slick-prev slick-arrow"><img src="images/review/arrow-prev.svg" alt=""></button>', 
       nextArrow:'<button type="button" class="slick-next slick-arrow"><img src="images/review/arrow-next.svg" alt=""></button>',  
