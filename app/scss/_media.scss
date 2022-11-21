@@ -398,7 +398,11 @@
      .review__title { 
         font-size: 44px;
        line-height: 53px;
-     }
+     } 
+      
+     .reservation__booking {
+       padding: 0 10px;
+    }
 
   } 
    
@@ -633,6 +637,12 @@
          
         .review__btn {
             margin-bottom: 35px;
+        } 
+
+        //--  reservation  --// 
+
+        .reservation__booking-inner {
+            margin: 33px auto 0;
         }
 
       } 
