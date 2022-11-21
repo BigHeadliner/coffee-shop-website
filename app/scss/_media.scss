@@ -245,6 +245,28 @@
         margin: 0 auto;
     }
 
+} 
+ 
+@media(max-width: 950px) {    
+     
+    //-- contacts --//
+        
+    .contacts__inner{ 
+        flex-wrap: wrap; 
+        justify-content: center;
+    } 
+     
+    .contacts__link, 
+    .contacts__form{ 
+         margin: 30px;
+    }  
+     
+    .contacts__link-img {
+        position: absolute;
+        left: 3px;
+        top: -4px;
+    }
+
 }
 
 
@@ -538,9 +560,14 @@
         margin-bottom: 27px;
         font-size: 43px;
         line-height: 52px;
-    }   
+     }    
+      
+     .contacts__inner {  
 
+        padding-top: 75px;  
 
+       }
+       
      } 
 
 
