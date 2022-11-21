@@ -325,7 +325,12 @@
         line-height: 57px;
     } 
      
-    //-- footer --//     
+    //-- footer --//      
+     
+    .footer {
+        background: #fff;
+        padding-top: 40px;
+    }
      
     .footer-top{ 
         flex-wrap: wrap; 
@@ -366,6 +371,12 @@
      
     .buy-machine__btn {
         margin: 37px 0 52px;
+    } 
+     
+    //-- footer  --//
+
+    .footer-top {
+        margin-bottom: 7px;
     }
 
 } 
@@ -819,7 +830,17 @@
          
         .best-product__card {
             padding: 19px;
-        } 
+        }  
+          
+        //-- footer --// 
+         
+        .footer {
+            padding-top: 21px;
+        }
+
+        .footer-bottom__text{ 
+            font-size: 15px;
+        }
 
     }
 
