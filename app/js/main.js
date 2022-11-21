@@ -14,8 +14,18 @@ $(function () {
       nextArrow:'<button type="button" class="slick-next slick-arrow"><img src="images/review/arrow-next.svg" alt=""></button>',  
       fade: true, 
       dots: true, 
-      autoplay: true,
-    });
+      autoplay: true, 
+       
+      responsive: [
+        {
+          breakpoint: 850,
+          settings: {
+            arrows: false,
+           }
+        },
+      ]
+    }); 
+    
     
     $("#product-1").rateYo({
         rating: 3, 
