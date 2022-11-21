@@ -42,6 +42,10 @@ $(function () {
         rating: 5, 
         starWidth: "23px"
       });
-   
+    
+       
+      $('.reservation__form-btn').on('click', function(e){ 
+        e.preventDefault();
+      })      
  
 });

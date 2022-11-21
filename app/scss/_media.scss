@@ -158,6 +158,21 @@
         margin: 0 auto 54px;  
         display: block; 
         width: 209px;
+    }  
+     
+    //-- blog --//  
+
+    .blog__items{ 
+        flex-wrap: wrap; 
+        justify-content: center;
+    } 
+     
+    .blog__item{ 
+        margin: 15px;
+    } 
+     
+    .blog__btn {
+        margin: 55px auto 50px;
     }
 
 }
@@ -278,7 +293,16 @@
      
     .coffee-for-you__btn {
         margin-bottom: 61px;
-    }
+    }  
+     
+    //--  blog --//
+     
+    .blog__title {
+        margin-bottom: 47px;
+        font-size: 50px; 
+        line-height: 57px;
+    } 
+
 
   }
  
@@ -403,6 +427,12 @@
      .reservation__booking {
        padding: 0 10px;
     }
+     
+    //-- blog -- // 
+
+    .blog__title {
+        margin-bottom: 30px;
+    } 
 
   } 
    
@@ -500,7 +530,16 @@
 
      .best-product__card{ 
         margin: 18px 0; 
-       }
+       }  
+        
+    //--  blog --//  
+        
+       .blog__title {
+        margin-bottom: 27px;
+        font-size: 43px;
+        line-height: 52px;
+    }   
+
 
      } 
 
@@ -566,8 +605,13 @@
        
       .review__title {
         margin: 25px 0 21px;
-    } 
-
+    }  
+     
+    //-- blog --//
+        
+     .blog__item-text {
+        padding: 19px 27px; 
+      }
 
     }
 
@@ -586,7 +630,14 @@
           .header__main-title {
               font-size: 30px;
               line-height: 50px;
-          }
+          }  
+           
+        //-- blog --//
+           
+          .blog__title {
+            font-size: 41px;
+            line-height: 49px;
+        }
 
       }
 
@@ -643,6 +694,12 @@
 
         .reservation__booking-inner {
             margin: 33px auto 0;
+        }  
+         
+         //-- blog --//
+         
+        .blog__item-text {
+            padding: 19px 15px;
         }
 
       } 
